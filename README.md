@@ -34,8 +34,40 @@ To compile the server and client applications, use the following commands:
 
 g++ -std=c++11 -o servers servers.cpp -pthread
 
-
+```
 
 # Compile the client application
 
 g++ -std=c++11 -o clients clients.cpp -pthread
+
+Running the Application
+Start the Server
+First, start the server application:
+
+bash
+Copy code
+./servers
+Start the Client
+Then, in a separate terminal, start the client application:
+
+bash
+Copy code
+./clients
+Files
+servers.cpp: The server application source code.
+clients.cpp: The client application source code.
+Features
+Server: Handles incoming client connections and processes their requests concurrently using threads.
+Client: Connects to the server and communicates by sending requests and receiving responses.
+Usage
+Compile both server and client applications.
+Run the server application.
+Run the client application in a separate terminal window.
+Observe the interaction between the client and the server.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+css
+Copy code
+
+Feel free to modify this `README.md` to better fit your specific project details and any add
