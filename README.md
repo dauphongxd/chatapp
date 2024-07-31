@@ -34,11 +34,10 @@ To compile the server and client applications, use the following commands:
 
 g++ -std=c++11 -o servers servers.cpp -pthread
 
-```
 
-# Compile the client application
 
 g++ -std=c++11 -o clients clients.cpp -pthread
+```
 
 # Running the Application
 ## Start the Server
