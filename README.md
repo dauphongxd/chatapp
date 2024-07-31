@@ -8,6 +8,8 @@
 
 This project includes a server-client application written in C++. The server and client communicate using POSIX threads for concurrency. The application demonstrates basic networking concepts and multithreading.
 
+## ScreenShot
+![Screenshot 2024-07-31 at 6 21 33 PM](https://github.com/user-attachments/assets/0d06adf8-2d92-43dc-8c9a-33eead2619a1)
 
 
 ## Requirements
